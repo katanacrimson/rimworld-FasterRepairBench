@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Faster Repair Bench</name>
+	<author>katana</author>
+	<supportedVersions>
+		<li>1.4</li>
+	</supportedVersions>
+	<packageId>katana.fasterrepairbench</packageId>
+	<modDependencies>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>UnlimitedHugs.Hugslib</packageId>
+			<displayName>Hugslib</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/818773962</steamWorkshopUrl>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+		</li>
+		<li>
+			<packageId>VanillaExpanded.VFESpacer</packageId>
+			<displayName>Vanilla Furniture Expanded - Spacer Module</displayName>
+			<downloadUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1718190143</downloadUrl>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2028381079</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>VanillaExpanded.VFECore</packageId>
+			<displayName>Vanilla Furniture Expanded</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1718190143</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>brrainz.harmony</li>
+		<li>UnlimitedHugs.Hugslib</li>
+		<li>VanillaExpanded.VFECore</li>
+		<li>VanillaExpanded.VFESpacer</li>
+	</loadAfter>
+	<description>Speeds up repairs using the VFE Spacer Repair Bench.</description>
+</ModMetaData>
